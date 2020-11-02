@@ -22,41 +22,32 @@ h4{
 	  transform: translate(-50%, -50%);
 }
 
-/* Arrow & Hover Animation */
 #more-arrows {
-	 width: 75px; 
+  width: 75px;
   height: 65px;
-  
-  &:hover {
-    
-    polygon {
-      fill:#FF4500	;
-      transition: all .2s ease-out;
-
-      &.arrow-bottom {
-        transform: translateY(-18px);
-      }
-
-      &.arrow-top {
-        transform: translateY(18px);
-      }
-      
-    }
-  
-  }
-  
+}
+#more-arrows:hover polygon {
+  fill:orangered;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+#more-arrows:hover polygon.arrow-bottom {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+  -webkit-transform: translateY(18px);
+          transform: translateY(18px);
 }
 
 polygon {
-  fill:#FF4500	;
+  fill:orangered;
+  -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
-    
-  &.arrow-middle {
-	  opacity: 0.75;
-	}
-
-	&.arrow-top {
-	  opacity: 0.5
-	}
-	 
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top {
+  opacity: 0.5;
 }

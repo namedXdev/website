@@ -22,13 +22,13 @@ h4 {
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
-
+/* arrow animation */
 #more-arrows {
 	width: 75px;
 	height: 65px;
 }
 #more-arrows:hover polygon {
-	fill: orangered;
+	fill:#FF824E;
 	-webkit-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 }
@@ -42,7 +42,7 @@ h4 {
 }
 
 polygon {
-	fill: orangered;
+	fill: #FF824E;
 	-webkit-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 }

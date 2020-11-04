@@ -1,3 +1,9 @@
+/* banner */
+.banner
+{
+	height: 80vh;
+	padding: 40vh 0vh;
+}
 .navbar {
 	background-color: transparent;
 }

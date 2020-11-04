@@ -1608,12 +1608,12 @@ hr {
   
   svg {
 	position: relative;
-	font: 16em/1 Arial;
+	font: 16em/1 Fredoka One;
   }
   
   .webcoderskull-1 {
-	fill: none;
-	stroke: white;
+	fill:none;
+	stroke:black;
 	stroke-dasharray: 7% 28%;
 	stroke-width: 3px;
 	-webkit-animation: stroke-offset 2s  linear;

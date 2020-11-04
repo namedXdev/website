@@ -1595,4 +1595,62 @@ hr {
 	  transform: rotate(180deg);
 	}
   }
+ 
+ 
+  /* Banner animation */
+  BODY {
+	height: 100%;
+  }
+  
+  .webcoderskull {
+	font-size: 0.5em;
+  }
+  
+  svg {
+	position: relative;
+	font: 16em/1 Arial;
+  }
+  
+  .webcoderskull-1 {
+	fill: none;
+	stroke: white;
+	stroke-dasharray: 7% 28%;
+	stroke-width: 3px;
+	-webkit-animation: stroke-offset 2s  linear;
+			animation: stroke-offset 2s  linear;
+  }
+  .webcoderskull-1:nth-child(1) {
+	stroke: black;
+	stroke-dashoffset: 7%;
+  }
+  .webcoderskull-1:nth-child(2) {
+	stroke: black;
+	stroke-dashoffset: 14%;
+  }
+  .webcoderskull-1:nth-child(3) {
+	stroke: black;
+	stroke-dashoffset: 21%;
+  }
+  .webcoderskull-1:nth-child(4) {
+	stroke: black;
+	stroke-dashoffset: 28%;
+  }
+  .webcoderskull-1:nth-child(5) {
+	stroke: black;
+	stroke-dashoffset: 35%;
+  }
+  
+  @-webkit-keyframes stroke-offset {
+	50% {
+	  stroke-dashoffset: 35%;
+	  stroke-dasharray: 0 87.5%;
+	}
+  }
+  
+  @keyframes stroke-offset {
+	50% {
+	  stroke-dashoffset: 35%;
+	  stroke-dasharray: 0 87.5%;
+	}
+  }
   

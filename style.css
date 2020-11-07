@@ -1652,4 +1652,53 @@ hr {
 	  stroke-dasharray: 0 87.5%;
 	}
   }
+/* Cards */
+  .skills-area {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: white;
+}
+
+.skills-area .skill-box {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.skills-area .skill-box .skill-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2vh;
+}
+
+.skills-area .skill-box .skill-list .skill-list-card {
+  width: 20rem;
+  margin: 1rem 1rem;
+  padding: 1rem;
+  background-color: #323031;
+  border-radius: 1rem;
+  -webkit-box-shadow: -0.5rem 0.3rem 1rem black;
+          box-shadow: -0.5rem 0.3rem 1rem black;
+  text-align: left;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.skills-area .skill-box .skill-list .skill-list-card h1 {
+  margin: 1rem 0;
+}
+
+.skills-area .skill-box .skill-list .skill-list-card img {
+  height: 1.5rem;
+}
   

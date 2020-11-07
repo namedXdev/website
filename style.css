@@ -321,7 +321,7 @@ hr {
 	line-height: 160px;
 	background: none;
 	margin: 0 auto;
-	box-shadow: none;
+	box-shadow:none;
 	position: relative;
   }
   .progress:after {

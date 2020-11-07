@@ -373,7 +373,7 @@ hr {
 .progress .progress-value {
 	display: flex;
 	border-radius: 50%;
-	font-size: 1rem;
+	font-size: 3rem;
 	text-align: center;
 	line-height: 20px;
 	align-items: center;
@@ -1586,6 +1586,7 @@ hr {
 		transform: rotate(0deg);
 	}
 	100% {
+<<<<<<< HEAD
 		-webkit-transform: rotate(180);
 		transform: rotate(180deg);
 	}
@@ -1593,6 +1594,16 @@ hr {
 
 /* Banner animation */
 BODY {
+=======
+	  -webkit-transform: rotate(180);
+	  transform: rotate(180deg);
+	}
+  }
+ 
+ 
+  /* Banner animation */
+  /* BODY {
+>>>>>>> 8eebc994c16edc874c0f03394b95a163109137e7
 	height: 100%;
 }
 
@@ -1646,7 +1657,11 @@ svg {
 		stroke-dashoffset: 35%;
 		stroke-dasharray: 0 87.5%;
 	}
+<<<<<<< HEAD
 }
+=======
+  } */
+>>>>>>> 8eebc994c16edc874c0f03394b95a163109137e7
 /* Cards */
 .skills-area {
 	width: 100%;

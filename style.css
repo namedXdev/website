@@ -1597,7 +1597,7 @@ hr {
  
  
   /* Banner animation */
-  BODY {
+  /* BODY {
 	height: 100%;
   }
   
@@ -1651,7 +1651,7 @@ hr {
 	  stroke-dashoffset: 35%;
 	  stroke-dasharray: 0 87.5%;
 	}
-  }
+  } */
 /* Cards */
   .skills-area {
   width: 100%;

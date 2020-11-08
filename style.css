@@ -1719,13 +1719,12 @@ hr {
 /* Head Logo */
 
 .head-logo {
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 5vh;
+	margin-top: 250px;
+	height: 30vh;
 	font-size: 60px;
+	
 	letter-spacing: 0.1em;
-	padding: 7%;
+	padding: 20;
 	text-align: center;
 }
 div > span {
@@ -1949,4 +1948,9 @@ div > span {
 	100% {
 		opacity: 0.1;
 	}
+}
+.head-content {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }

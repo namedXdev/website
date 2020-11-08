@@ -232,6 +232,8 @@ textarea {
 
 hr {
 	border-color: rgba(255, 255, 255, .8);
+	width: 400px;
+
 }
 
 /* Begin Media Queries*/

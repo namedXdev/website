@@ -1721,7 +1721,7 @@ hr {
 	margin-top: 250px;
 	height: 30vh;
 	font-size: 60px;
-	
+
 	letter-spacing: 0.1em;
 	padding: 20;
 	text-align: center;
@@ -1954,15 +1954,12 @@ div > span {
 	margin-right: auto;
 	position: relative;
 	align-items: center;
-	
 }
-.about-section{
-	display:flex;
+.about-section {
+	display: flex;
 }
-.about-content{
-	height: 50vh;
+.about-content {
 	margin-top: auto;
 	margin-bottom: auto;
-
-
+	padding: 10px;
 }
